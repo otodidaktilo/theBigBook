@@ -1,143 +1,105 @@
-/* @media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 667px) 
-  and (-webkit-min-device-pixel-ratio: 2)  { */
+html{
+    height: 100%;
+}
+body{
+    /* background: linear-gradient(90deg, black ,blue);  */
+    background-color:black;
+    background-image: url(docs/assets/Sprite-0007.png);
+    image-rendering: pixelated;
+    background-size:cover ;
+}
+h1{
+    color: red;
+    z-index: 3;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: normal;
+    /* background-color: black; */
+   
+    padding: 5px 20px 5px 10px;
+}
+h1 a:hover{
+    background-color:white;
+    color:black;
+}
+a{
+    text-decoration:none;
+    text-transform: uppercase;
+    font-style: normal ;
+    font-display: ;
+    font-family: "Times New Roman", serif;
+    /* color: rgb(250, 115, 115); */
+    color: whitesmoke;
+}
+.navigation a:hover {
 
-    * {
-        padding: 0;
-        margin: 0;
-        width: max-content;
-        border: 3px solid rgba(255, 0, 0, 0);
-    }
+    font-size: 100px;
+    background-image: url(docs/assets/Sprite-0006.png);
+    background-repeat: repeat;
+    /* background-size: cover ; */
+    backdrop-filter: ;
+    color:rgb(0, 0, 0);
+    animation: myanim 10s;
+    animation-fill-mode: forwards;
+}
+@keyframes myanim{
+    from{font-size:20px;}
+    to{font-size: 250px;}
+}
+nav ul {
+   /* background-color: black; */
+    margin: auto;
+    text-align: center;
     
-    body {
-        font-family: 'Roboto', sans-serif;    
-    }
-
-    h1 {
-        font-size: 2.2em;
-    }
- 
-
-    h2 {
-        font-size: 1.5em;
+    /* margin-left: 10px; */
+    padding: 5px 10px 5px 10px;
+}
+nav li{
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+    display: inline;
+    margin: 20px
+}
+.navigation{
+    /* position:fixed;
+    top: 0px;
+    left:39%;
+} */
+}
+.gif {
+    /* flex: auto; */
+    /* align-self: center; */
+    /* justify-self: center; */
+    /* display: block; */
+    /* margin-left: auto;
+    margin-right: auto;
+    margin-top: auto; */
+    transform: scale(1);
     
-    }
-
-    h6 {
-        font-size: 12px;
-        color: rgba(0, 0, 0, 0);
-    }
-
-    a {
-        text-decoration: none;
-        color: rgb(235, 90, 70);
-    }
-
-    a:hover {
-        text-decoration: underline;
-    }
-    a:active {
-        color: white;
-        background-color: black;
-    }
+    /* padding-top:100px; */
+}
+.ay{
+    /* background-image: url(docs/assets/gifs/ezgi_ates.gif);
+    background-repeat: repeat-x;
+    background-size: cover;
+    background-position: center;
     
-    p {
-        width: 100%;
-        padding: 3px 0;
-    }
-
-    pre {
-        font-size: 14px;
-        white-space: pre-wrap;
-    }
-
-    .black {
-        color: black;
-    }
-
-    #wrapper {
-        display: flex;
-    }
-
-    #left-container{
-        
-        width: fit-content;
-        height: 98vh;
-        margin: 0 10px;
-        /* border: 2px solid lightblue; */
-        
-    }
-
-    #right-container{
-        
-        width: 55vw;
-        height: 90vh;
-        margin: 0px 80px;
-    }
-
-    .flex {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .page-content {
-        width: 100%;
-        height: 76vh;
-        overflow-y: scroll;
-        padding: 10px;
-    }
-
-    .mini-sketch {
-        display: inline-block;
-        text-align: center;
-    }
-
-    .mini-sketch > img {
-        width: 250px;
-    }
-
-    
-    #hamburger {
-        /* width: max-content; */
-        display: none;
-    }
-    
-    .patty {
-        border: 1px solid gray;
-        width: 10px;
-        margin: 2px auto;
-        border-radius: 2px;
-    
-    }
-    
-    
-    .dropdown-item {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height: 30px;
-        list-style: none;
-        margin: -4px 0;
-
-    }
-    
-    .yolo-style {
-        background-color: none;
-        font-size: 14px;
-        color: hsla(0, 0%, 0%, 0);
-        border: 3px solid hsla(10, 0%, 0%, 0);
-        position: relative;
-    }
-
-
-    h5.work {
-        margin: 5px 0 5px 20px;
-        font-size: .9em;
-    }
-
-    h6.work {
-        margin: 5px 0 5px 20px;
-        font-size: .8em;
-    }
+    margin: 20px 20px 20px 20px;
+    padding:400px ; */
+}
+img{
+    /* position: absolute;
+    left: 50vw;
+    top: 50vh;
+    image-rendering: crisp-edges;
+    image-rendering: pixelated;
+    -ms-interpolation-mode: nearest-neighbor; */
+}
+.cloudsvid{
+	width: 640px;
+	height: 480px; 
+	position:absolute; 
+	top:25%; left:35%;
+	z-index: 20;
+}
