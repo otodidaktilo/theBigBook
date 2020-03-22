@@ -6,7 +6,7 @@ html{
 body{
     /* background: linear-gradient(90deg,rgb(45, 32, 58) 0vh, black 10vh,black 90vh, rgb(0, 255, 60) ); */
     background-color:rgb(255, 255, 255);
-    background-image: url(../assets/Sprite-0006.png);
+    /* background-image: url(../assets/Sprite-0006.png); */
     background-size: cover;
 }
 h1{
@@ -28,31 +28,28 @@ a{
     color: rgb(0, 0, 0);
 }
 .navigation a:hover {
-    background-color:black;
-    color:white;
+    background-color:white;
+    color:black;
 }
 #gallery-list{
-    background-color: black;
-    
+    /* background-color: black; */
+    margin: 10em 4em 10em 4em;
 }
 #gallery-list a{
     font-size: 30px;
     color: white;
-    /* margin: 1em 1em 1em 1em; */
-    text-decoration-line: underline;
+    background-color: black;
+    margin: 1em 1em 1em 1em;
+    padding: 0.5em;
+    border-style: double;
+    border-width : 5px;
+    border-color:red;
 }
-#gallery-list a::before{
-    content: '________';
+#gallery-list a:hover{
     font-size: 30px;
-    color: white;
-    /* background: white; */
-    /* margin: 1em 1em 1em 1em; */
-}
-#gallery-list a::after{
-    content: '________';
-    color: white;
-    /* background: white; */
-    /* margin: 1em 1em 1em 1em; */
+    color: black;
+    background-color: white;
+    
 }
 nav ul {
    /* background-color: black; */
@@ -70,18 +67,6 @@ nav li{
     margin: 20px
 }
 
-.gif {
-    /* flex: auto; */
-    /* align-self: center; */
-    /* justify-self: center; */
-    /* display: block; */
-    /* margin-left: auto;
-    margin-right: auto;
-    margin-top: auto; */
-    transform: scale(1);
-    
-    /* padding-top:100px; */
-}
 #me {
     text-align: justify;
     width: 400px;
@@ -127,37 +112,50 @@ footer{
     /* justify-content: left; */
     align-items: center;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-flow: row;
     
+    /* flex-direction: column; */
+    flex-wrap: wrap;
 }
 .painting-list-year-section{
 
     color:rgb(250, 115, 115);
     font-size: 1.3em;
     text-align: center;
-    line-height: 1.5;
+    line-height: 10px;
     margin: auto  0px auto 0px;
     position: relative;
 }
+
 .painting-year a{
-    background-color:rgba(1, 1, 1,0.6);
+    background-color:rgba(1, 1, 1);
     color: white;
-    margin-block-start: 1.33em;
+    /* margin-block-start: 1.33em;
     margin-block-end: 1.33em;
     margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    /* font-weight: ; */
+    margin-inline-end: 0px; */
+    font-weight: 20px ;
+    font-size: 30px;
+    padding: 0.25em;
     /* top: 0px; */
-    width: 100%;
- 
+    /* margin: 1em 1em 1em 1em; */
+    /* width: 100%; */
+    border-style: double;
+    border-width: 10px;
+    border-color: red;
     
 }
 .painting-year{
-    display: flex;
+    /* display: flex; */
     /* justify-content: left; */
-    align-items: center;
-    flex-direction: row;
-    flex-wrap: wrap;
+    /* align-items: center; */
+    /* flex-direction: row; */
+    /* flex-wrap: wrap; */
+    width: 100%;
+    margin-bottom: 2em;
+    margin-top: 2em;
+    border-style: solid;
+    height:1px;
 }
 .painting-year a::before{
     content: ' ';
@@ -180,9 +178,12 @@ footer{
 #resim {
     /* width: 30em; */
     
-    width: 20%;
-    height: 20%;
+    /* width: 50%; */
+    width: 30%;
+    height: 30%;
+    object-fit: contain;
+    /* height: 1500px; */
     margin: 0.5em 0.5em 0.5em 0.5em;
-    flex-basis: 10em;
-    align-content: center;
+    /* flex-basis: 10em; */
 }
+
