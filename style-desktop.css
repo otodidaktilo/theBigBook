@@ -1,3 +1,9 @@
+* {
+    padding: 0;
+    margin: 0;
+    /* width: max-content; */
+    border: 3px solid rgba(255, 0, 0, 0);
+}
 html{
     height: 100%;
 }
@@ -26,7 +32,7 @@ a{
     text-decoration:none;
     text-transform: uppercase;
     font-style: normal ;
-    font-display: ;
+    /* font-display: ; */
     font-family: "Times New Roman", serif;
     /* color: rgb(250, 115, 115); */
     color: whitesmoke;
@@ -37,7 +43,7 @@ a{
     background-image: url(docs/assets/Sprite-0006.png);
     background-repeat: repeat;
     /* background-size: cover ; */
-    backdrop-filter: ;
+    /* backdrop-filter: ; */
     color:rgb(0, 0, 0);
     animation: myanim 10s;
     animation-fill-mode: forwards;
@@ -61,12 +67,12 @@ nav li{
     display: inline;
     margin: 20px
 }
-.navigation{
+/* .navigation{ */
     /* position:fixed;
     top: 0px;
     left:39%;
 } */
-}
+/* } */
 .gif {
     /* flex: auto; */
     /* align-self: center; */
@@ -79,7 +85,7 @@ nav li{
     
     /* padding-top:100px; */
 }
-.ay{
+/* .ay{ */
     /* background-image: url(docs/assets/gifs/ezgi_ates.gif);
     background-repeat: repeat-x;
     background-size: cover;
@@ -87,15 +93,15 @@ nav li{
     
     margin: 20px 20px 20px 20px;
     padding:400px ; */
-}
-img{
+/* } */
+/* img{ */
     /* position: absolute;
     left: 50vw;
     top: 50vh;
     image-rendering: crisp-edges;
     image-rendering: pixelated;
     -ms-interpolation-mode: nearest-neighbor; */
-}
+/* } */
 .cloudsvid{
 	width: 640px;
 	height: 480px; 
