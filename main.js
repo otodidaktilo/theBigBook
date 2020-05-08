@@ -58,10 +58,14 @@ $(document).ready(function(){
             if(resize == 0){
                 $(this).animate(
                     {
-    
+                        
                         width: "80%"
                     }, 500);
                     resize = 1; 
+                $(this).children('.caption').toggle('slow', function() {
+                    
+                });
+               
             }else{
 
                 $(this).animate(
@@ -69,6 +73,10 @@ $(document).ready(function(){
                         width: "40%"
                     }, 500);
                     resize=0;
+                    $(this).children('.caption').toggle('slow', function() {
+                        
+                    });
+                    
             }
         
        

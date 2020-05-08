@@ -6,7 +6,7 @@
 
 body {
     background-color: black;
-    background-image: url("docs/assets/Sprite-0007.png");
+    /* background-image: url("docs/assets/Sprite-0007.png"); */
     font-family: sans-serif;
     color: white;
 
@@ -79,7 +79,9 @@ a:hover {
     max-width: 950px;
     overflow-y: none;
 }
-/* width */
+.caption{
+    display: none;
+}
 
 @keyframes scroll-top {
     0% {}
