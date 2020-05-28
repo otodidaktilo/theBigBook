@@ -13,6 +13,7 @@ body {
 }
 
 p {
+    font-family: 'DM Mono', monospace;
     font-size: 40px;
     margin-top: 30px;
 }
@@ -27,6 +28,7 @@ p {
 }
 
 .side-bar {
+    font-family: 'DM Mono', monospace;
     vertical-align: top;
     width: 190px;
     height: max-content;
@@ -81,6 +83,10 @@ a:hover {
 }
 .caption{
     display: none;
+}
+.caption a{
+    display: inline;
+    color: rgb(132, 126, 252);
 }
 
 @keyframes scroll-top {
@@ -146,19 +152,44 @@ a:hover {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    
 }
 
 .gallery-item {
     width: 40%;
     margin: 20px 0;
+    padding: 20px;
+    /* border-style: outset;
+    border-width: 10px; */
 }
+/* .gallery-item :hover {
+    border-style: solid;
+    border-width: 5px;
 
+} */
 .ml-img {
     width: 100%;
 }
-
-
-
+.coding {
+    width:640px ; 
+    height:480px ;
+    border-style: double;
+     border-color: rgb(255, 254, 254); border-width: 10px;   
+    /* background-color: white;   */
+}
+.entry p{
+    text-align: left;
+    font-family: 'DM Mono', monospace;
+   
+    color: white;
+    font-size: 18px;
+    display: inline;
+    
+}
+.entry a{
+    color: rgb(132, 126, 252);
+    
+}
 .scroll-to-top {
     width: 40px;
         height: 40px;
@@ -207,7 +238,7 @@ a:hover {
         max-width: 1000px;
         height: 100%;
 
-        background-color: black;
+        background-color: green;
         margin: 0 auto;
         padding: 0;
         overflow-y: auto;
@@ -234,5 +265,7 @@ a:hover {
         z-index: 100;
 
     }
+    
+    
 
   }
