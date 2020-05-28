@@ -11,12 +11,12 @@ $(document).ready(function(){
 
 <nav class="main-nav">
     <div class="nav-section">
-    <a href="#">About</a>
+    <a href="docs/About/about.html">About</a>
     </div>
     <div class="nav-section">
         <h2>Digital</h2>
         <a href="machineLearning.html">Machine Learning</a>
-        <a href="#">Coding</a>
+        <a href="coding.html">Coding</a>
         <a href="#"></a>
         <a href="#"></a>
         <a href="#"></a>
@@ -37,7 +37,7 @@ $(document).ready(function(){
         <h2>Printmedia</h2>
         <a href="#">Risograph</a>
         <a href="#">Etching</a>
-        <a href="#"></a>
+        <a href="#">Searching for Love</a>
         <a href="#"></a>
         <a href="#"></a>
         <a href="#"></a>

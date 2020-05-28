@@ -25,6 +25,7 @@ p {
     max-width: 1200px;
     display: flex;
     flex-wrap: wrap;
+    
 }
 
 .side-bar {
@@ -89,10 +90,7 @@ a:hover {
     color: rgb(132, 126, 252);
 }
 
-@keyframes scroll-top {
-    0% {}
-    100% {}
-}
+
 
 ::-webkit-scrollbar {
     width: 10px;
@@ -116,7 +114,7 @@ a:hover {
     width: 10px;
   }
   
-  /* Track */
+  Track
   .wrapper::-webkit-scrollbar-track {
     background: #f1f1f1; 
   }
@@ -154,6 +152,13 @@ a:hover {
     flex-wrap: wrap;
     
 }
+.img-g{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
 
 .gallery-item {
     width: 40%;
@@ -170,9 +175,16 @@ a:hover {
 .ml-img {
     width: 100%;
 }
-.coding {
+.rozin {
     width:640px ; 
     height:480px ;
+    border-style: double;
+     border-color: rgb(255, 254, 254); border-width: 10px;   
+    /* background-color: white;   */
+}
+.photoparticle {
+    width:740px ; 
+    height:960px ;
     border-style: double;
      border-color: rgb(255, 254, 254); border-width: 10px;   
     /* background-color: white;   */
@@ -189,6 +201,25 @@ a:hover {
 .entry a{
     color: rgb(132, 126, 252);
     
+}
+.about p{
+    /* display:flex; */
+    font-size: 18px;
+    margin:0px;
+    width:500px;
+    
+}
+.about a{
+    color: rgb(132, 126, 252);
+}
+.foot p{
+    font-size: 10px;
+}
+.name{
+    display: block;
+    position: relative;
+    top: 10px;
+    left:0px;
 }
 .scroll-to-top {
     width: 40px;
@@ -207,7 +238,9 @@ a:hover {
         background-color: red;
 }
 
-
+.ana {
+    height: 100%;
+}
 
 
 @media only screen 
@@ -238,10 +271,10 @@ a:hover {
         max-width: 1000px;
         height: 100%;
 
-        background-color: green;
+        background-color: black;
         margin: 0 auto;
         padding: 0;
-        overflow-y: auto;
+        overflow-y: scroll;
     }
 
     .main-nav {
@@ -265,7 +298,21 @@ a:hover {
         z-index: 100;
 
     }
-    
-    
+    .gallery-item {
+        width: 40%;
+        margin: 10px 0;
+        padding: 10px;
+        /* border-style: outset;
+        border-width: 10px; */
+    }
+    .img-g{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .ana {
+        height: 500px;
+    }
 
   }
