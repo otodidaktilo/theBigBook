@@ -11,13 +11,13 @@ $(document).ready(function(){
 
 <nav class="main-nav">
     <div class="nav-section">
-    <a href="/docs/About/about.html">About</a>
+    <a href="/theBigBook/docs/About/about.html">About</a>
     </div>
     <div class="nav-section">
         <h2>Digital</h2>
-        <a href="/machineLearning.html">StyleGAN2</a>
-        <a href="/coding.html">Coding</a>
-        <a href="/docs/Prints/mayhem-digital.html">Mayhem</a>
+        <a href="/theBigBook/machineLearning.html">StyleGAN2</a>
+        <a href="/theBigBook/coding.html">Coding</a>
+        <a href="/theBigBook/docs/Prints/mayhem-digital.html">Mayhem</a>
         <a href="#"></a>
         <a href="#"></a>
         <a href="#"></a>
@@ -26,11 +26,11 @@ $(document).ready(function(){
 
     <div class="nav-section">
         <h2>2D</h2>
-        <a href="/docs/Paintings/portraits.html">Portraits</a>
-        <a href="/docs/Prints/searchingForLove.html">Searching for Love</a>
-        <a href="/docs/Prints/mayhem.html">Mayhem</a>
-        <a href="/sheepGreen.html">Sheep Green</a>
-        <a href="/loveItHateIt.html">Love It Hate It</a>
+        <a href="/theBigBook/docs/Paintings/portraits.html">Portraits</a>
+        <a href="/theBigBook/docs/Prints/searchingForLove.html">Searching for Love</a>
+        <a href="/theBigBook/docs/Prints/mayhem.html">Mayhem</a>
+        <a href="/theBigBook/sheepGreen.html">Sheep Green</a>
+        <a href="/theBigBook/loveItHateIt.html">Love It Hate It</a>
         <a href="#"></a>
         <a href="#"></a>
         <a href="#"></a>
@@ -46,9 +46,9 @@ $(document).ready(function(){
 
     <div class="nav-section">
         <h2>Archive</h2>
-        <a href="/painting.html">Painting</a>
-        <a href="/drawings.html">Drawing</a>
-        <a href="/prints.html">Printmedia</a>
+        <a href="/theBigBook/painting.html">Painting</a>
+        <a href="/theBigBook/drawings.html">Drawing</a>
+        <a href="/theBigBook/prints.html">Printmedia</a>
         <a href="#"></a>
         <a href="#"></a>
         <a href="#"></a>
