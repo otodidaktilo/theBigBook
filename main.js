@@ -1,7 +1,7 @@
 $(document).ready(function(){
     
     // window.scrollTop(0);
-
+    let desc= false;
     let isActive = false;
 
     resizeElements();
@@ -19,7 +19,7 @@ $(document).ready(function(){
         $(".main-nav").toggle();
         isActive=!isActive;
     })
-
+    
 
     $(".scroll-to-top").click(function(){
 
@@ -29,36 +29,14 @@ $(document).ready(function(){
     
             // $("html").animate({scrollTop: 0}, 250);
     })
-    // $(".img-container").click(function(){
-    //     if($(this).children().css("width") == "300px"){
-    //         $(this).children().animate({
-    //             width: "800px"
-    //             // top: "50%",
-    //             // left: "50%"
-    //         }, 'slow')
-    //     }
-    //     else {
-    //         $(this).children().animate({
-    //             width: "300px",
-    //             top: originTop,
-    //             left: originLeft
-    //         }, 'slow', function(){$(this).children().css("position", "static")} ).css("transform", "translate(0, 0)");
 
-    // }
-    // function toggle(it) {
-    //     if (it.width == 200)
-    //         {it.width = 600;}
-    //     else
-    //         {it.width = 200;}
-    //     }
 
     var resize = 0 ;
     $(".gallery-item").click(function(){
         
             if(resize == 0){
                 $(this).animate(
-                    {
-                        
+                    {               
                         width: "80%"
                     }, 500);
                     resize = 1; 
@@ -78,11 +56,40 @@ $(document).ready(function(){
                     });
                     
             }
+            //Another Try
+            $("#desButton").click(function(){
+                $("p").toggle();
+            });
+            // $(".desButton").click(function(){
+
+            //     $(".description").toggle();
+            //     desc=!desc;
+            // })
+            
+            // $('.desButton').click(function(){
+            //     print("I am working")
+            //     if(desc == false){
+            //         $(".description").show();
+            //         desc=!desc;
+            //     }else{
+            //         $(".description").hide();
+            //         desc=!desc;
+            //     }
+            //     // $(".description").hide();
+            //     // description=!description;
+            // })
         
-       
         
     })
-
+    // function activateDescription() {
+    //     print("i work");
+    //     var x = document.getElementById("description");
+    //     if (x.style.display === "none") {
+    //       x.style.display = "block";
+    //     } else {
+    //       x.style.display = "none";
+    //     }
+    //   }
 
     function calculateWidths() {
         let sideBarWidth = $(".side-bar")[0].offsetWidth;
@@ -104,6 +111,9 @@ $(document).ready(function(){
             if(!isActive) { 
                 $(".main-nav").hide();
             }
+            // if(!desc) { 
+            //     $(".description").hide();
+            // }
 
         } else {
             $(".hamburger-menu").hide();
