@@ -32,6 +32,7 @@ p {
     font-family: 'DM Mono', monospace;
     vertical-align: top;
     width: 190px;
+    padding: 0px 20px;
     height: max-content;
     max-height: 96vh;
     background-color: rgba(0, 0, 0, 1);
